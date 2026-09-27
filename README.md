@@ -231,6 +231,4 @@ These examples are from local tests; generated SQL may vary between model respon
 - Executing generated SQL with defensive validation and read-only database access.
 - Testing filtering, sorting, partial matching, aggregation, and multi-table JOINs.
 
-## License
 
-Add a `LICENSE` file if you choose to release this project under an open-source license.
