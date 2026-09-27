@@ -1,0 +1,25 @@
+Table: departments
+Columns:
+id INTEGER PRIMARY KEY
+name TEXT
+location TEXT
+
+Table: employees
+Columns:
+id INTEGER PRIMARY KEY
+name TEXT
+salary INTEGER
+department_id INTEGER
+
+Relationship:
+employees.department_id references departments.id
+
+Table: projects
+Columns:
+id INTEGER PRIMARY KEY
+name TEXT
+budget INTEGER
+employee_id INTEGER
+
+Relationship:
+projects.employee_id references employees.id
